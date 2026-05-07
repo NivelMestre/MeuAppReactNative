@@ -1,13 +1,11 @@
-// app/terceiro.tsx
-
 import { View, Text, StyleSheet } from 'react-native';
 
 export default function Terceiro() {
   return (
     <View style={styles.container}>
-      <Text style={styles.titulo}>Terceira Página</Text>
+      <Text style={styles.titulo}>Terceiro ano</Text>
       <Text style={styles.subtitulo}>
-        Este é o subtítulo da terceira página.
+        Certificado de técnico em informática para internet
       </Text>
     </View>
   );
@@ -26,12 +24,12 @@ const styles = StyleSheet.create({
     fontSize: 30,
     fontWeight: 'bold',
     marginBottom: 10,
-    color: '#de9c30',
+    color: '#e28b00',
   },
 
   subtitulo: {
     fontSize: 18,
-    color: '#de9c30',
+    color: '#e28b00',
     textAlign: 'center',
   },
 });

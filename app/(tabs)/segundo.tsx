@@ -1,13 +1,11 @@
-// app/segundo.tsx
-
 import { View, Text, StyleSheet } from 'react-native';
 
 export default function Segundo() {
   return (
     <View style={styles.container}>
-      <Text style={styles.titulo}>Segunda Página</Text>
+      <Text style={styles.titulo}>Segundo ano</Text>
       <Text style={styles.subtitulo}>
-        Este é o subtítulo da segunda página.
+        Certificado em programador de computadores
       </Text>
     </View>
   );

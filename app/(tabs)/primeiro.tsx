@@ -1,13 +1,11 @@
-// app/primeiro.tsx
-
 import { View, Text, StyleSheet } from 'react-native';
 
 export default function Primeiro() {
   return (
     <View style={styles.container}>
-      <Text style={styles.titulo}>Primeira Página</Text>
+      <Text style={styles.titulo}>Primeiro ano</Text>
       <Text style={styles.subtitulo}>
-        Este é o subtítulo da primeira página.
+        Certificado de auxiliar técnico em informática
       </Text>
     </View>
   );
